@@ -1,0 +1,73 @@
+html{
+    background-color: #00060D;
+
+}
+
+
+.sign_section{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign_window{
+    
+    background-color: #F6F2F6;
+
+    border-radius: 25px;
+    width: 22%;
+    min-width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding-top: 6%;
+    padding-bottom: 10%;
+    box-shadow: 0 0px 50px 15px rgba(255, 255, 255, 0.25);
+
+}
+
+.sign_headers{
+    margin-bottom: 12%;
+    font-family: "TitilliumWeb-SemiBold";
+    font-size: 25px;
+}
+
+.sign_oauth{
+    display: flex;
+    flex-direction: column;
+    
+    gap:7px;
+    margin-top: 10%;
+}
+
+.sign_in_button{
+    margin-top: 2%;
+    width: 100px;
+    height: 25px;
+}
+
+.forgot_pswd_a{
+    font-size: 15px;
+    
+}
+
+
+.userdata_inp{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+@font-face{
+    font-family: "TitilliumWeb-SemiBold";
+    src: url("../fonts/TitilliumWeb-SemiBold.ttf");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
