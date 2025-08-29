@@ -1,42 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/style.css" rel="stylesheet">
-    <title>progglobe - BEPIS</title>
+    <title>progglobe - online HTTP game</title>
 </head>
 <body>
-    <main>
-        
-        <section class = "sign_section">
-            <div class = "sign_window"> 
-                <div class="sign_headers">
-                    <div>Welcome to progglobe</div>
-                    <div>Sign in</div>
-                </div>
+    <section class = "window">
+        <div class="window__header">
+            <div>Welcome to progglobe</div>
+            <div>Sign in</div>
+        </div>
 
-                <div>
-                    <form class="userdata_inp">
-                        <input placeholder="login/email">
-                        <input id="bepis" placeholder="password" type="password">
-                        <label for="bepis" class="underline">
-                            <a class = "forgot_pswd_a" href="">forgot password?</a>
-                        </label>
-                    </form>
-                </div>
+        <form class = "window__login-form">
+            <input placeholder="login/email">
+            <input placeholder="password">
+        </form>
 
-                <button class = "sign_in_button">Sign in</button>
+        <div class = "window__sign-button">
+            <button>Sign in</button>
+        </div>
 
-                <div class="sign_oauth">
-                    <button>Sign in with Google</button>
-                    <button>Sign in with github</button>
-                </div>
-                
-                
+        <div class = "window-oauth">
+            <div class="window-oauth__google">
+                <button>Sign in with Google</button>
             </div>
-        </section>
+            <div class="window-oauth__github">
+                <button>Sign in with github</button>
+            </div>
+        </div>
 
-    </main>
+    </section>
 </body>
 </html>
