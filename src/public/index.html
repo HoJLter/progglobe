@@ -4,32 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>progglobe - online HTTP game</title>
+    <link rel="stylesheet" href="css/style.css
+    ">
 </head>
 <body>
-    <section class = "window">
-        <div class="window__header">
-            <div>Welcome to progglobe</div>
-            <div>Sign in</div>
-        </div>
+    <div class="window-wrapper">
+        <section class = "window">
+            <div class="flex-wrapper">
+                <div class="flex-wrapper">
+                    <div class="header-text">Welcome to progglobe</div>
+                    <div class="header-text">Sign in</div>
+                </div>
 
-        <form class = "window__login-form">
-            <input placeholder="login/email">
-            <input placeholder="password">
-        </form>
+                <form class = "window__login-form">
+                    <div class="flex-wrapper">
+                        <input class="input-space" placeholder="login/email">
+                        <input class="input-space" placeholder="password" type="password">
+                        <label for="password" class = "input-space__label">
+                            <a href="">forgot password?</a>
+                        </label>
+                    </div>
+                </form>
 
-        <div class = "window__sign-button">
-            <button>Sign in</button>
-        </div>
+                    <button class="window__sign-button">Sign in</button>
 
-        <div class = "window-oauth">
-            <div class="window-oauth__google">
-                <button>Sign in with Google</button>
-            </div>
-            <div class="window-oauth__github">
-                <button>Sign in with github</button>
-            </div>
-        </div>
-
-    </section>
+                <div class = "oauth">
+                    <button class="oauth__button">
+                        <div class="flex-hor-wrapper">
+                            Sign in with Google 
+                            <img src="images/google-logo.png" width="24">
+                        </div>
+                    </button>
+                    <button class="oauth__button">
+                        <div class="flex-hor-wrapper">
+                            Sign in with github 
+                            <img src="images/github-logo.png" width="24">
+                        </div>
+                    </button>
+                </div>
+        </section>
+    </div>
 </body>
 </html>
